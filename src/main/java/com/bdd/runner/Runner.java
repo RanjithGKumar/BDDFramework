@@ -13,7 +13,7 @@ import io.cucumber.testng.TestNGCucumberRunner;
 
 @CucumberOptions(features = "src\\main\\resources\\FeatureFiles\\", 
 glue = { "com/bdd/stepDefinitions" }, 
-tags = { "@Common1" }, 
+tags = { "@Common" }, 
 plugin = { "pretty", "html:target/cucumber-reports", "json:target/cucumber.jason" })
 
 
